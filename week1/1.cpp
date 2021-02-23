@@ -25,5 +25,7 @@ int main()
         }
     }
 
+    delete[] numbers;
+
     return 0;
 }
