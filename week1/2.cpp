@@ -6,7 +6,7 @@ int main()
 
     std::cin >> n >> m;
 
-    int **matrix = new int *[n];
+    int** matrix = new int*[n];
 
     for (int i = 0; i < n; i++)
     {

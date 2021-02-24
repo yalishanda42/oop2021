@@ -2,16 +2,16 @@
 
 struct RouteCheckpoint
 {
-    RouteCheckpoint *next;
+    RouteCheckpoint* next;
     char name[1024];
 };
 
-void printRoute(const RouteCheckpoint *start)
+void printRoute(const RouteCheckpoint* start)
 {
     if (start == nullptr)
         return; // just in case
 
-    const RouteCheckpoint *currentPoint = start;
+    const RouteCheckpoint* currentPoint = start;
     std::cout << start->name;
     while (currentPoint->next != nullptr)
     {
@@ -20,7 +20,7 @@ void printRoute(const RouteCheckpoint *start)
     }
 }
 
-void printRouteRecursively(const RouteCheckpoint *start)
+void printRouteRecursively(const RouteCheckpoint* start)
 {
     if (start == nullptr)
     {

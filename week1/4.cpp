@@ -10,37 +10,37 @@ Complex complexFromReal(double real)
     return result;
 }
 
-bool isEqual(Complex lhs, Complex rhs)
+bool isEqual(const Complex& lhs, const Complex& rhs)
 {
     return lhs.real == rhs.real && lhs.imaginary == rhs.imaginary;
 }
 
-Complex add(Complex lhs, Complex rhs)
+Complex add(const Complex& lhs, const Complex& rhs)
 {
     double realPart = lhs.real + rhs.real;
     double imaginaryPart = lhs.imaginary + rhs.imaginary;
     return Complex{realPart, imaginaryPart};
 }
 
-Complex multiply(Complex lhs, Complex rhs)
+Complex multiply(const Complex& lhs, const Complex& rhs)
 {
     double realPart = lhs.real * rhs.real - lhs.imaginary * rhs.imaginary;
     double imaginaryPart = lhs.real * rhs.imaginary + lhs.imaginary * rhs.real;
     return Complex{realPart, imaginaryPart};
 }
 
-Complex conjugated(Complex c)
+Complex conjugated(const Complex& c)
 {
     return Complex{c.real, -c.imaginary};
 }
 
-void conjugate(Complex &c)
+void conjugate(Complex& c)
 {
     c.imaginary = -c.imaginary;
 }
 
 // or alternatively:
-void conjugate(Complex *c)
+void conjugate(Complex* c)
 {
     c->imaginary = -c->imaginary;
 }
