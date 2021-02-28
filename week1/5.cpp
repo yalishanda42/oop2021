@@ -13,8 +13,8 @@ struct Rectangle
 
 bool pointInRectangle(const Point& p, const Rectangle& r)
 {
-	return r.origin.x <= p.x <= r.origin.x + r.width
-		&& r.origin.y <= p.y <= r.origin.y + r.height;
+	return r.origin.x <= p.x && p.x <= r.origin.x + r.width
+		&& r.origin.y <= p.y && p.y <= r.origin.y + r.height;
 }
 
 void translateRectangle(Rectangle& r, int deltaX, int deltaY)
