@@ -21,9 +21,9 @@ int Player::getHitpoints() const
 void Player::takeDamage(unsigned int damage)
 {
     hitpoints -= damage;
-    if (damage <= 0)
+    if (hitpoints <= 0)
     {
-        damage = 0;
+        hitpoints = 0;
         std::cout << "Player died." << std::endl;
     }
 }
