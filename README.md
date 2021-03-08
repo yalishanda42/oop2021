@@ -14,7 +14,7 @@
 
 Запис от упражнението: [1ва част](https://www.youtube.com/watch?v=ww5aVP-7Gc0), [2ра част](https://www.youtube.com/watch?v=urqDEqyZOXg)
 
-## Седмица 3 - Конструктори
+## Седмица 3 - Конструктори + Деструктор
 
 [Задачи](week3)
 
