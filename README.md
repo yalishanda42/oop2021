@@ -16,7 +16,8 @@
 
 ## Седмица 3 - Конструктори + Деструктор
 
-[Задачи](week3)
+[Задачи и решения](week3)
+Запис от упражнението: [1ва част](https://www.youtube.com/watch?v=CJ6qqTD3Dko), [2ра част](https://www.youtube.com/watch?v=YwdgFJgin24)
 
 # Инструкции за различните ОС и IDE-та
 
