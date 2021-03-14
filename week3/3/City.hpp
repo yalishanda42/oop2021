@@ -14,17 +14,14 @@ public:
 
     const char* getName() const;
     const char* getCountryName() const;
-    unsigned int getPopulation() const;
-    bool getIsCapital() const;
 
     void setName(const char[NAME_MAX_LENGTH]);
     void setCountryName(const char[NAME_MAX_LENGTH]);
-    void setPopulation(unsigned int);
-    void setIsCapital(bool);
+
+    unsigned int population;
+    bool isCapital;
 
 private:
     char name[NAME_MAX_LENGTH];
     char countryName[NAME_MAX_LENGTH];
-    unsigned int population;
-    bool isCapital;
 };

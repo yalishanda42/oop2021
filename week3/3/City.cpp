@@ -35,16 +35,6 @@ const char* City::getCountryName() const
     return countryName;
 }
 
-unsigned int City::getPopulation() const
-{
-    return population;
-}
-
-bool City::getIsCapital() const
-{
-    return isCapital;
-}
-
 void City::setName(const char newValue[City::NAME_MAX_LENGTH])
 {
     strcpy(name, newValue);
@@ -53,14 +43,4 @@ void City::setName(const char newValue[City::NAME_MAX_LENGTH])
 void City::setCountryName(const char newValue[City::NAME_MAX_LENGTH])
 {
     strcpy(countryName, newValue);
-}
-
-void City::setPopulation(unsigned int newValue)
-{
-    population = newValue;
-}
-
-void City::setIsCapital(bool newValue)
-{
-    isCapital = newValue;
 }

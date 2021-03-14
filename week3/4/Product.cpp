@@ -39,23 +39,3 @@ void Product::setName(const char* newName)
     name = new char[nameLength + 1];
     strcpy(name, newName);
 }
-
-double Product::getPrice() const
-{
-    return price;
-}
-
-void Product::setPrice(double newPrice)
-{
-    price = newPrice;
-}
-
-unsigned int Product::getAmount() const
-{
-    return amount;
-}
-
-void Product::setAmount(unsigned int newAmount)
-{
-    amount = newAmount;
-}

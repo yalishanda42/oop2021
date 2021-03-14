@@ -11,14 +11,9 @@ public:
     const char* getName() const;
     void setName(const char*);
 
-    double getPrice() const;
-    void setPrice(double);
-
-    unsigned int getAmount() const;
-    void setAmount(unsigned int);
+    double price;
+    unsigned int amount;
 
 private:
     char* name;
-    double price;
-    unsigned int amount;
 };
