@@ -25,6 +25,7 @@
 * [Иван Лучев (група 1)](https://github.com/luchev/uni-object-oriented-programming-2021)
 * [Ивайло Димитров (група 4)](https://github.com/dimitrov570/oop2021)
 * [Любослав Карев (група 5)](https://github.com/lyubolp/OOP-SI-2021)
+* [Борис Величков (група 6)](https://github.com/BorisVelichkov/fmi-se-oop-2021)
 
 ## От миналата година:
 * [цък](https://github.com/SI-FMI-2019/OOP-2020)
