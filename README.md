@@ -20,6 +20,12 @@
 
 Запис от упражнението: [1ва част](https://www.youtube.com/watch?v=CJ6qqTD3Dko), [2ра част](https://www.youtube.com/watch?v=YwdgFJgin24)
 
+## Седмица 4 - Оператори и Голяма четворка
+
+[Задачи и решения](week4)
+
+Запис от упражнението: [цък](https://youtu.be/vpfRq2SLACQ)
+
 # Допълнителни материали
 ## От другите асистенти
 * [Иван Лучев (група 1)](https://github.com/luchev/uni-object-oriented-programming-2021)
