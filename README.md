@@ -29,6 +29,7 @@
 # Допълнителни материали
 ## От другите асистенти
 * [Иван Лучев (група 1)](https://github.com/luchev/uni-object-oriented-programming-2021)
+* [Жечко Попов (група 2)](https://github.com/zspopov/si-oop-2021-group-2)
 * [Ивайло Димитров (група 4)](https://github.com/dimitrov570/oop2021)
 * [Любослав Карев (група 5)](https://github.com/lyubolp/OOP-SI-2021)
 * [Борис Величков (група 6)](https://github.com/BorisVelichkov/fmi-se-oop-2021)
