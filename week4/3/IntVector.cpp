@@ -223,6 +223,8 @@ void IntVector::clear()
 
 void IntVector::copyArray(const int* source, unsigned int size)
 {
+    this->size = size;
+
     if (!size)
     {
         array = nullptr;
@@ -234,6 +236,4 @@ void IntVector::copyArray(const int* source, unsigned int size)
     {
         array[i] = source[i];
     }
-
-    this->size = size;
 }
