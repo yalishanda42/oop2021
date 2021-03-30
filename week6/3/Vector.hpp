@@ -87,7 +87,7 @@ Vector<T>& Vector<T>::operator+=(const Vector& rhs)
     else
     {
         const unsigned int newSize = size + rhs.size;
-        int* newArray = new int[newSize];
+        T* newArray = new T[newSize];
 
         // [0 ... size)
         // all elements of this->array
@@ -121,7 +121,7 @@ template <typename T>
 void Vector<T>::push_back(const T& element)
 {
     const unsigned int newSize = size + 1;
-    int* newArray = new int[newSize];
+    T* newArray = new T[newSize];
     if (array)
     {
         for (int i = 0; i < size; i++)
@@ -150,7 +150,7 @@ void Vector<T>::pop_back()
     }
 
     const unsigned int newSize = size - 1;
-    int* newArray = new int[newSize];
+    T* newArray = new T[newSize];
     for (int i = 0; i < newSize; i++)
     {
         newArray[i] = array[i];
@@ -191,7 +191,7 @@ bool Vector<T>::insert(const T& element, unsigned int index)
     }
 
     const unsigned int newSize = size + 1;
-    int* newArray = new int[newSize];
+    T* newArray = new T[newSize];
 
     for (int i = 0; i < index; i++)
     {
@@ -234,7 +234,7 @@ bool Vector<T>::erase(unsigned int index)
     }
 
     const unsigned int newSize = size - 1;
-    int* newArray = new int[newSize];
+    T* newArray = new T[newSize];
 
     for (int i = 0; i < index; i++)
     {
@@ -270,17 +270,17 @@ void Vector<T>::clear()
 template <typename T>
 void Vector<T>::copyArray(const T* source, unsigned int size)
 {
+    this->size = size;
+
     if (!size)
     {
         array = nullptr;
         return;
     }
 
-    array = new int[size];
+    array = new T[size];
     for (int i = 0; i < size; i++)
     {
         array[i] = source[i];
     }
-
-    this->size = size;
 }
