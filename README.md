@@ -42,7 +42,13 @@
 
 [Код от упражнението](week7)
 
-Записи от упражнението: [1](https://youtu.be/8tXSgVCMhM0) и [2](https://youtu.be/UziZLlYOIJM)
+Записи от упражнението: [1ва част](https://youtu.be/8tXSgVCMhM0) и [2ра част](https://youtu.be/UziZLlYOIJM)
+
+## Седмица 8 - Наследяване
+
+[Задачи и решения](week8)
+
+Запис от упражнението: [1ва част](https://www.youtube.com/watch?v=Ez8Aq6aOLwQ), [2ра част](https://www.youtube.com/watch?v=tdsuLQyRS-Q)
 
 # Допълнителни материали
 
