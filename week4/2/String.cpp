@@ -31,7 +31,7 @@ String::~String()
     delete[] array;
 }
 
-char& String::operator[](unsigned int index) const
+char& String::operator[](unsigned int index)
 {
     return array[index];
 }

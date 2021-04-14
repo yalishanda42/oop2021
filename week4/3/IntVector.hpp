@@ -9,7 +9,7 @@ public:
     ~IntVector();
 
     int& operator[](unsigned int index);
-    IntVector operator+(const IntVector&);
+    IntVector operator+(const IntVector&) const;
     IntVector& operator+=(const IntVector&);
 
     unsigned int length() const;

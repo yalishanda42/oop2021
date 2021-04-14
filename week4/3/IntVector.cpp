@@ -29,7 +29,7 @@ int& IntVector::operator[](unsigned int index)
     return array[index];
 }
 
-IntVector IntVector::operator+(const IntVector& rhs)
+IntVector IntVector::operator+(const IntVector& rhs) const
 {
     IntVector result = *this;
     result += rhs;

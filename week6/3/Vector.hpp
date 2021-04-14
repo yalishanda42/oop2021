@@ -10,7 +10,7 @@ public:
     ~Vector();
 
     T& operator[](unsigned int index);
-    Vector operator+(const Vector&);
+    Vector operator+(const Vector&) const;
     Vector& operator+=(const Vector&);
 
     unsigned int length() const;
@@ -66,7 +66,7 @@ T& Vector<T>::operator[](unsigned int index)
 }
 
 template <typename T>
-Vector<T> Vector<T>::operator+(const Vector& rhs)
+Vector<T> Vector<T>::operator+(const Vector& rhs) const
 {
     Vector result = *this;
     result += rhs;

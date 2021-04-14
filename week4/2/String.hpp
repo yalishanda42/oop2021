@@ -9,7 +9,7 @@ public:
     String& operator=(const String&);
     ~String();
 
-    char& operator[](unsigned int index) const;
+    char& operator[](unsigned int index);
     String operator+(const String&) const;
     String& operator+=(const String&);
     bool operator==(const String&) const;
