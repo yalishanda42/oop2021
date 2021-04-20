@@ -50,6 +50,12 @@
 
 Запис от упражнението: [1ва част](https://www.youtube.com/watch?v=Ez8Aq6aOLwQ), [2ра част](https://www.youtube.com/watch?v=tdsuLQyRS-Q)
 
+## Седмица 9 - Множествено наследяване
+
+[Задачи и решения](week9)
+
+Запис от упражнението: [1ва част](https://youtu.be/Lp3sHSbdgTY), [2ра част](https://youtu.be/8pJaeArBKFI)
+
 # Допълнителни материали
 
 ## Всички теми, обяснени с примери
