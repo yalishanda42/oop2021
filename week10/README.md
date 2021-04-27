@@ -26,8 +26,9 @@
 - `ageInYears` (`unsigned`) (get)
 - `void addAnYear() { ageInYears++; }`
 
-Бонус: проблем на диаманта: клас `NonalcoholicBear` : наследява `SoftDrink` и `Beer`
+Бонус: проблем на диаманта: клас `NonalcoholicBeer` : наследява `SoftDrink` и `Beer`
 - `type` е винаги `OTHER`
+- `isCraft` е винаги `false`
 
 
 
