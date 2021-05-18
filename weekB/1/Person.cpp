@@ -6,6 +6,7 @@ void Person::deleteAll()
     {
         delete pet;
     }
+    pets.clear();
 }
 
 void Person::copyOther(const Person& other)
