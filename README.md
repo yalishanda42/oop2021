@@ -56,23 +56,23 @@
 
 Запис от упражнението: [1ва част](https://youtu.be/Lp3sHSbdgTY), [2ра част](https://youtu.be/8pJaeArBKFI)
 
-## Седмица 10
+## Седмица 10 - Misc
 
 [Задача и решение](weekA)
 
 Запис от упражнението: [Преговор](https://youtu.be/m_RNIjx1cHg), [Задача за наследяване](https://youtu.be/PfeZc6tvE1g)
 
-## Седмица 11
+## Седмица 11 - Полиморфизъм
 
 [Задача и решение](weekB)
 
 Запис от упражнението: [Обяснение](https://youtu.be/KrAJ8lQ-vS4), [Задача](https://youtu.be/8FWjM-IREd8)
 
-## Седмица 12
+## Седмица 12 - Pro Tips Pt. 1
 
 [План и линкове](weekC)
 
-Запис иот упражнението: [1](https://youtu.be/OdAK5nLeDW4), [2](https://youtu.be/XKJhrR9Ekf4)
+Запис от упражнението: [1](https://youtu.be/OdAK5nLeDW4), [2](https://youtu.be/XKJhrR9Ekf4)
 
 # Допълнителни материали
 
