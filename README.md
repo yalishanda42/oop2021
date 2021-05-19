@@ -76,6 +76,8 @@
 
 # Допълнителни материали
 
+* [The Big 4 Cheatsheet](Big4Cheatsheet.md)
+
 ## Всички теми, обяснени с примери
 * [цък](https://github.com/SI-FMI-2019/OOP-2020/tree/master/group1/%D0%A2%D0%B5%D0%BC%D0%B8)
 
