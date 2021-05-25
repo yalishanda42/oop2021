@@ -74,6 +74,12 @@
 
 Запис от упражнението: [1](https://youtu.be/OdAK5nLeDW4), [2](https://youtu.be/XKJhrR9Ekf4)
 
+## Седмица 13 - Pro Tips Pt. 2 (Design Patterns, OOD, Code Quality Principles)
+
+[План и линкове](weekD)
+
+Запис от упражнението: [1](https://youtu.be/MOIkjsYeMB8), [2](https://youtu.be/m2ZqIeAgl48)
+
 # Допълнителни материали
 
 * [The Big 4 Cheatsheet](Big4Cheatsheet.md)
