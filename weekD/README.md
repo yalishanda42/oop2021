@@ -44,7 +44,7 @@ Keep It Simple, Stupid.
 
 ## Какво е `DRY`?
 
-~~[това](notdry.jpeg)~~
+~~[това](notdry.jpg)~~
 
 Don't Repeat Yourself.
 
