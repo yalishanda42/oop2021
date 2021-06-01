@@ -80,6 +80,10 @@
 
 Запис от упражнението: [1](https://youtu.be/MOIkjsYeMB8), [2](https://youtu.be/m2ZqIeAgl48)
 
+## Седмица 14
+
+[Примери](weekE)
+
 # Допълнителни материали
 
 * [The Big 4 Cheatsheet](Big4Cheatsheet.md)
