@@ -84,6 +84,10 @@
 
 [Примери](weekE)
 
+## Седмица 15
+
+[Подготовка](weekF)
+
 # Допълнителни материали
 
 * [The Big 4 Cheatsheet](Big4Cheatsheet.md)
