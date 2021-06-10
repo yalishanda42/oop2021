@@ -13,10 +13,12 @@
 template <typename T>
 class ArrayVector : public Container<T> {
     unsigned maxSize;
-    
+
 public:
     ArrayVector(unsigned maxSize = 10);
     bool add(const T&) override;
+
+    unsigned getMaxSize() const;
 };
 
 template <typename T>
@@ -32,8 +34,14 @@ bool ArrayVector<T>::add(const T& element)
     {
         return false;
     }
-    
+
     return Container<T>::add(element);
+}
+
+template <typename T>
+unsigned ArrayVector<T>::getMaxSize() const
+{
+    return this->maxSize;
 }
 
 #endif /* ArrayVector_hpp */
