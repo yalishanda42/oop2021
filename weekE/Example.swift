@@ -55,5 +55,5 @@ let p4: Person = Cyborg(name: "Retired", age: 256, isEvil: false) // polymorphis
 let army: [Person] = [p1, p2, p3, c1, p4]
 
 for soldier in army {
-    print(soldier.name); // polymorphism 2
+    print(soldier.name) // polymorphism 2
 }
